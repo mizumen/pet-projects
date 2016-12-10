@@ -1,0 +1,6 @@
+D:\WorkWD\Development\FirstProjectsOnC#\RenameMp3\RenameMp3\bin\Debug\RenameMp3.exe.config
+D:\WorkWD\Development\FirstProjectsOnC#\RenameMp3\RenameMp3\bin\Debug\RenameMp3.exe
+D:\WorkWD\Development\FirstProjectsOnC#\RenameMp3\RenameMp3\bin\Debug\RenameMp3.pdb
+D:\WorkWD\Development\FirstProjectsOnC#\RenameMp3\RenameMp3\obj\Debug\RenameMp3.csprojResolveAssemblyReference.cache
+D:\WorkWD\Development\FirstProjectsOnC#\RenameMp3\RenameMp3\obj\Debug\RenameMp3.exe
+D:\WorkWD\Development\FirstProjectsOnC#\RenameMp3\RenameMp3\obj\Debug\RenameMp3.pdb
