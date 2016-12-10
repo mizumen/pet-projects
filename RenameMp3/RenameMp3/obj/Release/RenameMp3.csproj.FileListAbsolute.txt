@@ -1,0 +1,5 @@
+D:\WorkWD\Development\Pet-projects\pet-projects\RenameMp3\RenameMp3\bin\Release\RenameMp3.exe.config
+D:\WorkWD\Development\Pet-projects\pet-projects\RenameMp3\RenameMp3\bin\Release\RenameMp3.exe
+D:\WorkWD\Development\Pet-projects\pet-projects\RenameMp3\RenameMp3\bin\Release\RenameMp3.pdb
+D:\WorkWD\Development\Pet-projects\pet-projects\RenameMp3\RenameMp3\obj\Release\RenameMp3.exe
+D:\WorkWD\Development\Pet-projects\pet-projects\RenameMp3\RenameMp3\obj\Release\RenameMp3.pdb
