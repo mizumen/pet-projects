@@ -25,24 +25,32 @@ namespace RenameMp3
             int foldersAmount = Convert.ToInt32(Console.ReadLine());
 
             Directory.CreateDirectory(dirName + "_renamed");
-            var newDirName = dirName + "_renamed";
+            var newDirName = dirName +"_renamed";
 
             for (int i = 0; i < foldersAmount; i++)
             {
                 DirectoryInfo d = new DirectoryInfo(dirName + "\\CD" + dirSubName.ToString().Substring(dirSubName.ToString().Length - 2));
                 FileInfo[] infos = d.GetFiles();
+                Directory.CreateDirectory(newDirName + "\\CD" + dirSubName.ToString().Substring(dirSubName.ToString().Length - 2));
+
                 int k = 101;
                 foreach (FileInfo f in infos)
                 {
-                    Directory.CreateDirectory(newDirName + "\\CD" + dirSubName.ToString().Substring(dirSubName.ToString().Length - 2));
-
-                    File.Copy(f.FullName, Path.Combine(newDirName + "\\CD" + dirSubName.ToString().Substring(dirSubName.ToString().Length - 2),
+                    if (Path.GetExtension(f.FullName).Equals(".mp3"))
+                    {
+                        File.Copy(f.FullName, Path.Combine(newDirName + "\\CD" + dirSubName.ToString().Substring(dirSubName.ToString().Length - 2),
                         "track" + k.ToString().Substring(k.ToString().Length - 2) + ".mp3"), true);
-                    
-                    k++;
+
+                        k++;
+                    }
+                    else
+                        Console.WriteLine("!!!!!the format is not MP3!!!!!!!!");
                 }
                 dirSubName++;
             }
+
+            //Console.WriteLine(Path.GetExtension(@"E:\MUSIC FOR LEXUS\usb1\CD02\Fall Out Boy - I Don't Care.mp3"));
+            //Console.ReadKey();
         }
     }
 }
